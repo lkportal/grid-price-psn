@@ -9,61 +9,103 @@ body{
 }    
 .conatiner-grid{
     display: grid;
-    align-items: center;   
+    align-items: center;
+
 }  
 .titulo-principal{
     position: relative;
 }
-.item-grid{
+.flex-item{
     display: flex;
+    justify-content: center;
+}
+.item-grid{
+    
     text-align: center;
     justify-content: center;
+    flex-direction: row;
     
     
+   
 }
 
 
-.item-flex-deluxe{
+.item-deluxe{
     flex-direction: row;
     border: solid 1px white;
     text-align: center;
-    background-color: white;
+    background-color:white;
     align-items: center;
+     
     
-    
-
 }
 
 .div-tiulo-deluxe{
+    
     border: solid 1px black;
     margin: 10px;
-   
+    background-color: #3c3c3c;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    height: 70px;
+    text-align: left;
+    
+
 }
+.div-tiulo-deluxe h2{
+    position: relative;
+    color: #ffc340;
+    margin: -1px;
+    flex-wrap: wrap;
+    left: 10px;
+}
+.div-tiulo-deluxe h6{
+  margin: 10px;
+}
+
 .table-deluxe{
     
-     margin: 10px;
-     border: solid 1px black;
-     flex-wrap: wrap;
-     padding: 25px;
-     
-     
-}
-
-
-.item-flex-extra{
-    text-align: center;
-    background-color: white;
-    
-}
-
-.flex-item-extra{
-    display: flex;
-}
-
-.div-tiulo-extra{
     border: solid 1px black;
     margin: 10px;
+    padding: 10px;
+    height: 500px;
+    width: 350px;
+   
     
+}
+
+
+.item-extra{
+    flex-direction: row;
+    border: solid 1px white;
+    text-align: center;
+    background-color:white;
+    align-items: center;
+    
+    
+}
+
+.div-titulo-extra{
+    text-align: left;
+    border: solid 1px black;
+    margin: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    height: 70px;    
+}
+.div-titulo-extra h2{
+    position: relative;
+    color:black;
+    margin: -2px;
+    flex-wrap: wrap;
+    left: 10px;
+}
+.div-titulo-extra h6{
+     color: black;
+     margin: 10px;
 }
 
 .table-extra{
@@ -72,21 +114,48 @@ body{
     margin: 10px;
     padding: 10px;
     height: 500px;
-    width: 500px;
+    width: 350px;
 }
 
-.item-flex-essential{
-    background-color: white;
+.item-essential{
+    flex-direction: row;
+    border: solid 1px white;
+    text-align: center;
+    background-color:white;
+    align-items: center;
+    
     
 }
 
 .div-titulo-essential{
+  
+    text-align: left;
     border: solid 1px black;
     margin: 10px;
-    
+    background-color: white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    height: 70px;  
 }
+.div-titulo-essential h2{
+    position: relative;
+    color:black;
+    margin: -2px;
+    flex-wrap: wrap;
+    left: 10px;
+}
+.div-titulo-essential h6{
+    color: black;
+     margin: 10px;
+     flex-wrap: wrap;
+}
+
 
 .table-essential{
     border: solid 1px black;
     margin: 10px;
+    padding: 10px;
+    height: 500px;
+    width: 350px;
 }
