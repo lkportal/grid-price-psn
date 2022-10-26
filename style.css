@@ -33,16 +33,15 @@ body{
 .item-deluxe{
     flex-direction: row;
     border: solid 1px white;
-    text-align: center;
+    border-radius: 10px;
     background-color:white;
-    align-items: center;
+    text-align: left;
+    margin: 25px;
      
     
 }
 
 .div-tiulo-deluxe{
-    
-    border: solid 1px black;
     margin: 10px;
     background-color: #3c3c3c;
     border-radius: 10px;
@@ -50,8 +49,7 @@ body{
     font-size: 20px;
     height: 70px;
     text-align: left;
-    
-
+    box-shadow: 2px  2px 2px 2px gray;
 }
 .div-tiulo-deluxe h2{
     position: relative;
@@ -66,7 +64,7 @@ body{
 
 .table-deluxe{
     
-    border: solid 1px black;
+   
     margin: 10px;
     padding: 10px;
     height: 500px;
@@ -79,16 +77,17 @@ body{
 .item-extra{
     flex-direction: row;
     border: solid 1px white;
-    text-align: center;
+    border-radius: 10px;
     background-color:white;
-    align-items: center;
+    text-align: left;
+    margin: 25px;
     
     
 }
 
 .div-titulo-extra{
     text-align: left;
-    border: solid 1px black;
+    box-shadow: 2px  2px 2px 2px gray;
     margin: 10px;
     background-color: yellow;
     border-radius: 10px;
@@ -109,8 +108,7 @@ body{
 }
 
 .table-extra{
-    
-    border: solid 1px black;
+   
     margin: 10px;
     padding: 10px;
     height: 500px;
@@ -120,9 +118,10 @@ body{
 .item-essential{
     flex-direction: row;
     border: solid 1px white;
-    text-align: center;
     background-color:white;
-    align-items: center;
+    text-align: left;
+    margin: 25px;
+    border-radius: 10px;
     
     
 }
@@ -130,13 +129,15 @@ body{
 .div-titulo-essential{
   
     text-align: left;
-    border: solid 1px black;
+   
     margin: 10px;
     background-color: white;
     border-radius: 10px;
     color: white;
     font-size: 20px;
     height: 70px;  
+    box-shadow: 2px  2px 2px 2px gray;
+
 }
 .div-titulo-essential h2{
     position: relative;
@@ -153,9 +154,8 @@ body{
 
 
 .table-essential{
-    border: solid 1px black;
-    margin: 10px;
-    padding: 10px;
+    margin: 2px;
     height: 500px;
     width: 350px;
 }
+
