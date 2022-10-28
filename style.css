@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
 body{
-    background-color: gray;
+    background-color:#dcdcdc;
     text-align: center;
+    font-family: 'Abyssinica SIL', serif;
+
 } 
 .tiulo-principal{
     font-size: 25px;
@@ -20,14 +24,10 @@ body{
     display: flex;
     justify-content: center;
 }
-.item-grid{
-    
+.item-grid{    
     text-align: center;
     justify-content: center;
     flex-direction: row;
-    
-    
-   
 }
 
 
@@ -37,8 +37,11 @@ body{
     border-radius: 10px;
     background-color:white;
     text-align: left;
-    margin: 25px;
-     
+    margin: 25px; 
+}
+.item-deluxe:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px gray;
     
 }
 
@@ -63,15 +66,10 @@ body{
   margin: 10px;
 }
 
-.table-deluxe{
-    
-   
+.table-deluxe{  
     margin: 10px;
     padding: 10px;
-    height: 500px;
-    width: 350px;
-   
-    
+    width: 350px; 
 }
 
 
@@ -82,7 +80,12 @@ body{
     background-color:white;
     text-align: left;
     margin: 25px;
-    
+    height: 550px;
+   
+}
+.item-extra:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px gray;
     
 }
 
@@ -110,10 +113,9 @@ body{
 
 .table-extra{
    
-    margin: 10px;
-    padding: 10px;
-    height: 500px;
+    margin: 10px;       
     width: 350px;
+    
 }
 
 .item-essential{
@@ -123,7 +125,12 @@ body{
     text-align: left;
     margin: 25px;
     border-radius: 10px;
-    
+    height: 475px;   
+}
+
+.item-essential:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px gray;
     
 }
 
@@ -156,8 +163,14 @@ body{
 
 .table-essential{
     margin: 2px;
-    height: 500px;
     width: 350px;
+    
+}
+td{
+    padding: 10px;;
+}
+th{
+    padding: 10px;;
 }
 button{
     opacity: 0;
